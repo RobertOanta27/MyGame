@@ -15,6 +15,7 @@ Player Controls:
   - Movement: up,down,left,right arrow keys ( or Keys W S A D ) for moving, space is for jumping (also double jump) ( you can see the script in Assets/Scripts/Player/CharacterController2D.cs)
   - Attacking : Key Q (Assets/Scripts/Player/PlayerCombat.cs)
   - Interacting : (with portals or chests) Key E (Assets/Scripts/Interactibles in this folder is mainly everything and it works in conjuction with the PlayerCombat.cs)
+  - Objects : you pick torches automatically, you can throw them with Key CTRL
 
 EnemyAi:
   - I used a behaviour tree for the "so-called" Ai :) (I don't know if this is really considered an Ai but that's how I called it), mainly working around pandBT http://www.pandabehaviour.com/?page_id=23, EnemyAi.cs, SkeletonGfx.cs and SkeletonGfxCombat.cs are the old versions. The newer versions and the ones that I am using are in Assets/Scripts/EnemyAI_CS_BT

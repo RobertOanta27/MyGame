@@ -1,0 +1,49 @@
+tree "Root"
+	tree("PlayTag")
+
+tree "PlayTag"
+	repeat
+		fallback
+			tree "Attacked"
+			tree "ChasePlayer" 
+			tree "Chooser"
+
+			
+
+// Move to the player if we see player
+tree "ChasePlayer" 
+	while FindTargetPlayer
+		fallback
+			while not ReachedPlayer
+				MoveTowardsPlayer
+			While ReachedPlayer
+				Attack
+					
+
+// If attacked by player
+tree "Attacked"
+	fallback
+		while HitByPlayer
+			while not FindTargetPlayer
+				MoveTowardsPlayer
+		while JumpedByPlayer
+			while not FindTargetPlayer
+				MoveTowardsPlayer
+
+
+//Choose between patroling or idlling
+tree "Chooser"
+	while not FindTargetPlayer
+		fallback
+			while Patrolling
+				MoveTowardsTargets
+			while not Patrolling
+				Idle
+
+// Idle when we don't see 
+//tree "Idle" 
+//	while FindTargetPlayer
+//		sequence
+//			not IsIt
+//			not IsPlayerNear
+//		repeat Succeed // Repeat doing nothing.

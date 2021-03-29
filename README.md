@@ -7,7 +7,7 @@ The game is still in very early development :), at the moment it is a simple 2d 
 
 Files:
   - there is an .exe which is a playable build of the game : you can simply run it  and the press the continue button to play the game. Press ESC if you want to quit.
-  - Assets files : I included only code because this is relevant, the rest are just unity standard files with shaders and materials etc.
+  - Assets files : I included only the code because this is relevant, the rest are just unity standard files with shaders and materials etc.
 
 Player Controls: 
   - Movement: up,down,left,right arrow keys ( or Keys W S A D ) for moving, space is for jumping (also double jump) ( you can see the script in Assets/Scripts/Player/CharacterController2D.cs)

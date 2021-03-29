@@ -20,5 +20,6 @@ EnemyAi:
   -Assets/Scripts/UiMenu/Ui_SkillTree.cs and Assets/Scripts/Player/PlayerSkills.cs
  
  The code is free to use :), it can be used as a starting point if you are looking to make a 2D platformer,metroidvania or side-scroller. 
+ I have to mention that the characters and all the designed characters are not free to use because, as I said, some were bought online.
  
 

@@ -8,7 +8,7 @@ The game is still in very early development :), at the moment it is a simple 2d 
 Platform : Windows
 
 Files:
-  - UndeadTomb.exe is a playable build of the game : you can simply run it  and the press the continue button to play the game. Press ESC if you want to quit.
+  - In Unity build ,UndeadTomb.exe is a playable build of the game : you can simply run it  and the press the continue button to play the game. Press ESC if you want to quit.
   - Assets files : I included only the code because this is relevant, the rest are just unity standard files with shaders and materials etc.
 
 Player Controls: 

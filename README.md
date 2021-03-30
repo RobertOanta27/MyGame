@@ -1,7 +1,7 @@
 # MyGame
 A game I've been working on...
 
-Gameplay demo video here:
+Gameplay demo video here: https://www.youtube.com/watch?v=ARH6O2966ck
 
 The game is still in very early development (it has some bugs) :), at the moment it is a simple 2d platformer with some basic enemy Ai and Pathfinding, full player control with jumping, grabing onto walls and attacking, some environment interaction and a rudimentary Skill Tree (which is also in early development). I am the single person working on this game and the code has been written by me (except for some libraries that I used, the code for those libraries is also present in the folder and some scripts for optimization, light flickering and parallax and probably others which I expanded upon or changed and I don't remember) and also I have to mention that I only designed and animated a few of the main characters and enemies, the rest were bought from itch.io.
 
